@@ -15,10 +15,11 @@ class CannonBall {
   }
 
   shoot() {
-    var velocity = p5.Vector.fromAngle(cannon.angle);
-    velocity.mult(20);
-    Matter.Body.setStatic(this.body, false);
-    Matter.Body.setVelocity(this.body, { x: velocity.x, y: velocity.y });
+
+    
+    // complete a função shoot
+    
+    
   }
 
   display() {
